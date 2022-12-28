@@ -1,16 +1,30 @@
-### Hi there 👋
+# Hey there 👋
 
-<!--
-**mitinoh/mitinoh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```js
+import { SoftwareDeveloper } from '@mitinoh';
 
-Here are some ideas to get you started:
+class Bio extends SoftwareDeveloper {
+  name     = 'Mite Gjorgjiev';
+  title    = 'Full Stack Developer';
+  location = 'Milan, Italy';
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class Skills extends SoftwareDeveloper {
+  languages  = ['TypesScript', 'Java'];
+  databases  = ['MongoDB'];
+  frameworks = ['Angular', 'NestJs', 'Flutter'];
+  learning   = ['Swift', 'PostgreSQL']
+}
+```
+
+## Highlights
+
+- [**xplore**](https://github.com/mitinoh/xplore) A travel and experiences app made for iOS
+
+## Links
+
+- **Website:** https://mitinoh.github.io/portfolio/
+- **Twitter:** [@mitinoh](https://twitter.com/mitinoh)
+
+
+<a href="https://www.buymeacoffee.com/mitinoh" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
